@@ -1,0 +1,29 @@
+body{
+background-color:blue; 
+color:black;   
+}
+p{
+color:yellow;    
+}
+h3{
+    font-size:25px !important;    
+    }
+    .btn-info
+    {
+    color:rgb(206, 206, 170);
+    }
+    .btn-danger:hover{
+    background-color: blue;    
+    }
+    canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;  
+    background-color:fuchsia;
+    border-color: chocolate;
+    }
+    @keyframes example{
+    from{box-shadow:1px 1px 38px red;}  
+    to{box-shadow:1px 1px 38px yellow}        
+    }
+    
